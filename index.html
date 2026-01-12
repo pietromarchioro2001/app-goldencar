@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoldenCar – Clienti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">🍏 GoldenCar</div>
+</header>
+
+<main>
+
+  <section class="card">
+    <h2>Libretto di circolazione</h2>
+    <input type="file" id="libretto" accept="image/*">
+    <button onclick="inviaLibretto()">Analizza</button>
+  </section>
+
+  <section class="card">
+    <h2>Dati veicolo</h2>
+
+    <label>Nome cliente</label>
+    <input id="nomeCliente">
+
+    <label>Veicolo</label>
+    <input id="veicolo">
+
+    <label>Targa</label>
+    <input id="targa">
+
+    <label>Motore</label>
+    <input id="motore">
+
+    <button class="primary" onclick="conferma()">Conferma</button>
+  </section>
+
+  <pre id="log"></pre>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
