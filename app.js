@@ -1,4 +1,4 @@
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyQFqj4km_rwfOOUVYYfeCXixisvbt_A7b6jSqQXX_FBjLg7UIjh33-dTYhpJlJxQu84A/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwWhj2_O6tZ3UyYarL04Hu3gxMhUu5QGt6qTPhPAo9EB3NQdtm6H0_LfW0XgYECDu0u4A/exec";
 
 function inviaLibretto() {
   const file = document.getElementById("libretto").files[0];
@@ -54,3 +54,4 @@ async function conferma() {
     alert("Cliente e veicolo salvati");
   }
 }
+
